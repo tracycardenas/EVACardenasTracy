@@ -122,4 +122,9 @@ public class Libro {
         this.precio = value;
     }
 
+	@Override
+	public String toString() {
+		return "Libro [autor=" + autor + ", id=" + id + ", nombre=" + nombre + ", precio=" + precio + "]";
+	}
+
 }
