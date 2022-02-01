@@ -3,4 +3,28 @@
   <groupId>ec.ups.edu</groupId>
   <artifactId>EVACardenasTracyCLI</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+   <dependencies>
+  
+  	<!-- https://mvnrepository.com/artifact/javax.xml.ws/jaxws-api -->
+	<dependency>
+	    <groupId>javax.xml.ws</groupId>
+	    <artifactId>jaxws-api</artifactId>
+	    <version>2.2.6</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/javax.jws/javax.jws-api -->
+	<dependency>
+	    <groupId>javax.jws</groupId>
+	    <artifactId>javax.jws-api</artifactId>
+	    <version>1.1</version>
+	</dependency>
+	
+	<!-- https://mvnrepository.com/artifact/com.sun.xml.ws/jaxws-rt -->
+	<dependency>
+  <groupId>com.sun.xml.ws</groupId>
+  <artifactId>rt</artifactId>
+  <version>2.3.1</version>
+</dependency>
+  	
+  </dependencies>
+  
 </project>
